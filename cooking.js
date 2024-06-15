@@ -1,4 +1,5 @@
 function extractAndCapitalizeWords(stringOfFruits) {
+    //stringOfFruits will be split if a space, semicolon or a comma is encountered in the string  
     var fruits = stringOfFruits.split(/[ ,;]+/);
     //.map() will create the new array 'caps'  by adding elements returned from the provide function
     var caps = fruits.map(function(fruit) {
